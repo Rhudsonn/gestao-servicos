@@ -9,8 +9,8 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: zheiri
       MYSQL_DATABASE: servicos
-      MYSQL_USER: admin
-      MYSQL_PASSWORD: zheiri123
+      MYSQL_USER: root
+      MYSQL_PASSWORD:
 
     ports:
       - "3306:3306"
